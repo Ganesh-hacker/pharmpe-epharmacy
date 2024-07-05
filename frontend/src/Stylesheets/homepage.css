@@ -1,0 +1,114 @@
+/* Add an overlay for the shaded background */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 999; /* Ensure the overlay is behind the popup but above other content */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 32vw;
+    height: 100vh;
+    background-color: white;
+    animation: slideIn 0.7s ease-in-out;
+    z-index: 1000; /* Ensure the popup is above the overlay */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.popup-content {
+    height: 100%;
+}
+
+.crossingbutton {
+    position: absolute; /* Change to absolute to position within the .loginhead */
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginhead {
+    width: 100%; /* Adjusted width to 100% of the popup */
+    height: 130px;
+    background-color: #29285E;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 20px;
+    z-index: 1001; /* Ensure the header is above other content in the popup */
+}
+
+/* General styles for the form container */
+.loginformbox {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* Styles for the form labels */
+.loginlabel {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Darker color for better readability */
+}
+
+/* Styles for the input fields */
+.addressinput {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px;
+    width: calc(100% - 22px); /* Adjust width to compensate for padding and border */
+}
+
+/* Styles for the submit button */
+.add-new-address {
+    padding: 10px 20px;
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #29285E; /* Primary color */
+    color: white; /* Text color */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.add-new-address:hover {
+    background-color: #1f1e48; /* Darken on hover */
+}
+
+
+/* Add this to your homepage.css */
+.loading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}

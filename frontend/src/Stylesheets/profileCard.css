@@ -1,0 +1,106 @@
+/* src/Stylesheets/ProfileCard.css */
+
+.profile-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  background: linear-gradient(135deg,   #e0eec8,  rgb(204, 237, 245)); 
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-content {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: rgba(255, 255, 255, 0.8); Slightly transparent background for content */
+  border-radius: 15px;
+}
+
+.profile-card-sub-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+.profile-card:hover .profile-img {
+  border-color: #00c6ff;
+}
+
+.profile-card-details-container {
+  width: 100%;
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  color: black;
+}
+
+.profile-email,
+.profile-mobile {
+  font-size: 1.1em;
+  margin: 5px 0;
+  color: black;
+}
+
+.profile-button {
+  background: linear-gradient(135deg,   #c0f06b,  rgb(133, 226, 249));
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+  cursor: pointer;
+  font-size: 1em;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-button:hover {
+  background: linear-gradient(135deg,  rgb(133, 226, 249), #c0f06b);
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(35, 60, 47, 0.29);
+}
+
+.cart-and-order-details {
+  margin-top: 30px;
+  text-align: center;
+  color: black;
+}
+
+.items-purchased {
+  font-size: 1.1em;
+  color:black;
+  margin: 5px 0
+}

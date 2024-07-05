@@ -1,0 +1,88 @@
+.flexrowhelpcenter1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: linear-gradient(135deg,   #e0eec8,  rgb(204, 237, 245)); 
+  }
+  .flexrowhelpcenter1 >div{
+    padding-bottom:20px ;
+  }
+  .helpcenterbox2{
+    margin: 50px 150px 50px 150px;
+  
+  }
+  .Headinghelpcenter1 {
+    font-size: 30px;
+    font-weight:bolder;
+    border-bottom: 1px solid rgb(136, 124, 124);
+  }
+  .flexcolhelpcenter1{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+  
+  }
+  .flexcolhelpcenter1 >div{
+    padding-bottom:20px ;
+    width: 250px;
+    height: 280px;
+    border-radius: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+  }
+  .flexcolhelpcenter1 >a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .helpcenterimg{
+    padding-bottom:20px ;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+  
+  }
+  .helpcenterinfobox1{
+    margin: 50px 50px 50px 50px;
+  }
+  .flexrowhelpcenterinfo1{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+  }
+  .flexrowhelpcenterinfo1 >div{
+    padding:10px 20px 20px 100px;
+  
+  }
+  .flexcolhelpcenterinfo1{
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+  
+  }
+  .flexcolhelpcenterinfo1 > div{
+    padding:20px 0px 0px 0px ;
+    width: 650px;
+    flex-direction:column;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    color: black;
+  }
+  .helpcentercontactus{
+     color: #050505;
+     padding: 13px 23px 13px 23px;
+     border: 1px solid black;
+     font-size: 15px;
+     font-weight:600;
+     text-decoration:none;
+     border-radius: 8px ;
+  }
+  .helpcentercontactus:hover{
+    background-color: rgb(236, 236, 240);
+    text-decoration: none;
+    color: black;
+  }
+  

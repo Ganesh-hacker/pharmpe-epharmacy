@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #008577;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50px ;
+}
+
+.header-middle input {
+    padding: 10px;
+    border-radius: 15px;
+    border: #333;
+    outline: auto;
+    width: 30%;
+    height: 40px;
+    /* Set the width to 80% of its container */
+
+    /* Limit the maximum width to 400px */
+}
+
+.header-right nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    /* Remove underline from links */
+    transition: color 0.2s ease-in-out;
+    /* Add smooth color transition */
+}
+
+.header-right nav a:hover {
+    color: #4CAF50;
+    /* Change text color to green on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Original box-shadow for elevation */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    /* Added transition for smooth effects */
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.service:hover {
+    transform: translateY(-2px);
+    /* Slight uplift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Increased shadow on hover */
+    color: #008577;
+    /* Change text color to match header background on hover */
+}
+
+.service h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
+
+/* Change underline color and prevent text from turning blue on hover */
+.header-right nav a:hover {
+    text-decoration: none;
+    /* Remove underline on hover */
+    color: #4CAF50;
+    /* Change text color to green on hover */
+}

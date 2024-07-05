@@ -1,0 +1,83 @@
+.payment {
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #b7c5d1;
+    box-shadow: 0 0 10px rgba(161, 148, 148, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.payment h1 {
+    text-align: center;
+    color: rgb(44, 42, 42);
+}
+
+.payment label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.payment input[type="number"],
+.payment input[type="text"],
+.payment input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4580a1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.payment input[type="number"]:focus,
+.payment input[type="text"]:focus,
+.payment input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.payment button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.payment button:hover {
+    background-color: #062f5c;
+}
+
+.payment div {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .payment {
+        width: auto;
+        padding: 10px;
+    }
+
+    .payment input[type="number"],
+    .payment input[type="text"],
+    form input[type="email"] {
+        width: calc(100% - 10px);
+    }
+}
+
+#phone-pe {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Mountains+of+Christmas&display=swap");
+
+.carousel-wrapper {
+  margin-top: 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+  border-radius: 10px;
+  height: 550px; /* Decreased height */
+  background-image: cover; /* Ensure the image covers the container */
+}
+
+.slick-dots {
+  bottom: 10px; /* Adjusted position */
+}
+
+.slick-dots li {
+  margin: 0 2px; /* Adjusted spacing */
+}
+
+.slick-dots li button:before {
+  font-size: 18px; /* Decreased dot size */
+  color: #0088a0;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #494949;
+}

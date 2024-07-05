@@ -1,0 +1,279 @@
+._1zXYv {
+    text-align: left;
+    background-color: #fff;
+    color: #4f585e;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    line-height: 1.5
+}
+
+._1zXYv table,
+._1zXYv td,
+._1zXYv th {
+    border: 1px solid #4f585e;
+    border-collapse: collapse;
+    padding: 0 10px
+}
+
+@media (max-width:1023px) {
+    ._1zXYv {
+        max-width: 100%
+    }
+}
+
+.cl4Go {
+    padding: 50px 0 25px;
+    font-size: 26px;
+    border-bottom: 1px solid #dfe3e6
+}
+
+@media (max-width:1023px) {
+    .cl4Go {
+        display: none
+    }
+}
+
+._3tf_9 {
+    padding-top: 25px
+}
+
+@media (max-width:1023px) {
+    ._3tf_9 {
+        padding: 5%
+    }
+}
+
+._39Hj5 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0
+}
+
+@media (max-width:1023px) {
+    ._39Hj5 {
+        font-size: 14px;
+        padding-top: 0
+    }
+}
+
+._1tuOG {
+    text-decoration: underline
+}
+
+._3s60Z {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    padding-left: 20px
+}
+
+@media (max-width:1023px) {
+    ._3s60Z {
+        font-size: 12px;
+        padding-left: 10px;
+        max-width: 95%
+    }
+}
+
+._336Oo {
+    padding-bottom: 20px;
+    line-height: 1.5
+}
+
+._2NJzs {
+    font-weight: 700
+}
+
+.P60y0 {
+    font-style: italic
+}
+
+._3fqrE {
+    color: #3148dd;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+._2bORD {
+    padding-left: 20px
+}
+
+._369Nw {
+    margin-left: 20px
+}
+
+._3hQOt {
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5
+}
+
+._2Va-J {
+    padding-left: 25px
+}
+
+.rYcq8 {
+    list-style-type: lower-latin;
+    padding-bottom: 20px;
+    line-height: 1.5
+}
+
+._2fZRt,
+.rYcq8 {
+    padding-left: 20px
+}
+
+._2fZRt {
+    list-style-type: circle
+}
+
+._1hTex {
+    list-style-type: square;
+    padding-left: 20px
+}
+
+._1C-uV {
+    list-style-type: lower-roman
+}
+
+._1C-uV,
+._2rCJu {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5
+}
+
+._2rCJu {
+    list-style-type: decimal
+}
+
+._2anuf {
+    padding-top: 20px
+}
+
+._1--B5 {
+    margin-top: 30px
+}
+
+._1qUk5 {
+    padding-top: 80px
+}
+
+.nycb3 {
+    padding-left: 10px
+}
+
+.LfneA {
+    width: 90%;
+    margin-bottom: 30px
+}
+
+._1R47t {
+    font-style: italic;
+    font-size: 12px;
+    padding: 10px 0
+}
+
+._3_szA {
+    margin-left: 25px;
+    margin-top: 20px
+}
+
+.QHbP5 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0
+}
+
+@media (max-width:1023px) {
+    .QHbP5 {
+        font-size: 14px;
+        padding: 15px 0
+    }
+}
+
+._3uPF1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #aee2ff;
+    border-radius: 6px;
+    margin-bottom: 20px
+}
+
+._3uPF1>div {
+    width: auto;
+    margin: 10px
+}
+
+._2WUvl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 25px 0
+}
+
+@media (max-width:1023px) {
+    ._2WUvl {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+}
+
+._3QnMe {
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 6px 0 0 6px;
+    background-color: #f2fff8
+}
+
+@media (max-width:1023px) {
+    ._3QnMe {
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        padding: 15px
+    }
+}
+
+._3q4lu {
+    font-weight: 700;
+    padding: 15px 0;
+    border: 1px solid #dfe3e6;
+    border-width: 1px 0;
+    margin: 15px 0
+}
+
+._1_GRS {
+    padding: 15px;
+    background-color: #f2fff8;
+    border-radius: 0 6px 6px 0
+}
+
+@media (max-width:1023px) {
+    ._1_GRS {
+        border-radius: 0 0 6px 6px;
+        width: 100%
+    }
+}
+
+._2yAP- {
+    font-size: 14px;
+    line-height: 1.8
+}
+
+@media (max-width:1023px) {
+    ._2yAP- {
+        font-size: 12px
+    }
+}
